@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Yerey Shankhar | Software Developer Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #ff4d4d, #ffbf00, #5c4dff, #ff61a6);
+      color: #fff;
+      background-size: 400% 400%;
+      animation: gradientAnimation 10s ease infinite;
+    }
+    @keyframes gradientAnimation {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+    h1, h2, h5 {
+      color: #fff;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    }
+    .profile-pic {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #fff;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+    }
+    .btn-custom {
+      background-color: #ff61a6;
+      color: #fff;
+      border-radius: 25px;
+      padding: 8px 20px;
+      transition: background-color 0.3s ease;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    }
+    .btn-custom:hover {
+      background-color: #f02b6e;
+    }
+    .card {
+      background-color: #1e293b;
+      border: none;
+      color: #fff;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    }
+    .card-title {
+      color: #ffbf00;
+    }
+    .section-title {
+      border-left: 5px solid #ff61a6;
+      padding-left: 15px;
+      margin-bottom: 25px;
+      font-size: 1.6em;
+      color: #ffbf00;
+    }
+    footer {
+      background-color: #1e293b;
+      padding: 15px;
+      text-align: center;
+      color: #ff61a6;
+      font-size: 0.9em;
+    }
+    footer p {
+      margin-bottom: 0;
+    }
+    a {
+      color: #fff;
+      text-decoration: none;
+    }
+    a:hover {
+      color: #ff61a6;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Header -->
+<header class="text-center py-5">
+  <img src="WhatsApp Image 2025-04-17 at 15.23.40_f91627f4.jpg" alt="Shankhar" class="profile-pic mb-3">
+  <h1 class="fw-bold">Yerey Shankhar</h1>
+  <p class="mb-3">Aspiring Software Developer | BTech ECE Graduate (2024)</p>
+  <div>
+    <a href="https://github.com/Shankhar5152" class="btn btn-custom me-2" target="_blank">GitHub</a>
+    <a href="https://www.linkedin.com/in/shankhar" class="btn btn-custom" target="_blank">LinkedIn</a>
+  </div>
+</header>
+
+<div class="container">
+  <!-- About -->
+  <section class="my-5">
+    <h2 class="section-title">About Me</h2>
+    <p>I am an Electronics and Communication Engineering graduate, passionate about developing scalable applications and solving real-world challenges using modern tech stacks. Skilled in Python, Django, and Data Analysis using Power BI & Excel. I love collaborating in teams and constantly learning new tools and techniques to grow in the tech industry.</p>
+  </section>
+
+  <!-- Resume -->
+  <section class="my-5">
+    <h2 class="section-title">Resume</h2>
+    <a href="Yerey Shankhar copy.pdf" class="btn btn-custom" download>Download Resume (PDF)</a>
+  </section>
+
+  <!-- Education -->
+  <section class="my-5">
+    <h2 class="section-title">Education</h2>
+    <ul>
+      <li><strong>BTech</strong> - St. Johns College of Engineering and Technology, Kurnool – 69%</li>
+      <li><strong>PUC</strong> - Raghavendra Junior College, Yemmiganur – 64%</li>
+      <li><strong>10th</strong> - ZP High School, Yemmiganur – 78%</li>
+    </ul>
+  </section>
+
+  <!-- Internships -->
+  <section class="my-5">
+    <h2 class="section-title">Internships</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card p-3 mb-3">
+          <h5>Front-End Developer Intern</h5>
+          <p>Designed responsive web pages using HTML, CSS, JavaScript. Collaborated on UI/UX design. Gained hands-on experience with GitHub and version control.</p>
+          
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card p-3 mb-3">
+          <h5>Full-Stack Developer Intern</h5>
+          <p>Built full-stack applications using Django and Bootstrap. Worked on database integration, CRUD operations, and deployed user-centric platforms.</p>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+<section class="my-5">
+    <h2 class="section-title">Projects</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card p-3 mb-3">
+          <h5>Electronic Voting Machine</h5>
+          <p>Used Arduino and fingerprint sensor for secure and reliable voting system to reduce fraud and enhance election accuracy.</p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card p-3 mb-3">
+          <h5>Inventory Management System</h5>
+          <p>Django-based web app to manage product stocks, generate reports, and trigger low stock alerts for business owners.</p>
+          <a href="https://github.com/Shankhar5152/InventoryManagement" class="btn btn-custom" target="_blank">View on GitHub</a>
+        </div>
+      </div>
+      <!-- New Front-End Developer Project -->
+      <div class="col-md-6">
+        <div class="card p-3 mb-3">
+          <h5>Personal Portfolio Website</h5>
+          <p>Developed a personal portfolio website to showcase my skills, projects, and achievements as a Front-End Developer. Built using HTML, CSS, and JavaScript for an interactive and responsive experience.</p>
+          <a href="https://shankhar5152.github.io/shankhar./" class="btn btn-custom" target="_blank">View on GitHub</a>
+          <!-- Add a live demo link if available -->
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- Certificates -->
+  <section class="my-5">
+    <h2 class="section-title">Certificates</h2>
+    <ul>
+      <li>Python for Beginners – Great Learning</li>
+      <li>Power BI Basics – Great Learning</li>
+      <li>Excel for Data Analysis – SkillUp by Simplilearn</li>
+      <li>HTML & CSS – Infosys Springboard</li>
+      <li>Django Framework – Internshala</li>
+    </ul>
+  </section>
+
+  <!-- Skills -->
+  <section class="my-5">
+    <h2 class="section-title">Technical Skills</h2>
+    <div class="row">
+      <div class="col-md-4">Python, Java (Basics)</div>
+      <div class="col-md-4">HTML, CSS, JavaScript, Bootstrap</div>
+      <div class="col-md-4">Django, Git & GitHub</div>
+      <div class="col-md-4">SQL, Power BI, Excel</div>
+      <div class="col-md-4">Problem Solving, Teamwork</div>
+      <div class="col-md-4">Time Management, Reporting</div>
+    </div>
+  </section>
+
+  <!-- Languages -->
+  <section class="my-5">
+    <h2 class="section-title">Languages</h2>
+    <ul>
+      <li>Telugu (Native)</li>
+      <li>Kannada</li>
+      <li>English</li>
+      <li>Hindi</li>
+    </ul>
+  </section>
+
+  <!-- Extracurricular Activities -->
+  <section class="my-5">
+    <h2 class="section-title">Extracurricular Activities</h2>
+    <ul>
+      <li>Won Chess Player Award in Schooling</li>
+      <li>Photography & Editing</li>
+      <li>Video Editing</li>
+      <li>Reading</li>
+    </ul>
+  </section>
+
+  <!-- Contact -->
+  <section class="my-5">
+    <h2 class="section-title">Contact</h2>
+    <p><strong>Location:</strong> Yemmiganur, Kurnool, Andhra Pradesh</p>
+    <p><strong>Email:</strong> <a href="mailto:yereshankar475@gmail.com" class="text-white">yereshankar475@gmail.com</a></p>
+    <p><strong>Phone:</strong> 7702455971</p>
+  </section>
+</div>
+
+<!-- Footer -->
+<footer>
+  <p>© 2025 Yerey Shankhar. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
